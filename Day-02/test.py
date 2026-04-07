@@ -29,3 +29,20 @@ text3 = "Python is awesome"
 substring = "is"
 if substring in text3:
     print(substring,"found in the text")
+
+num1 = 5.0 
+num2 = 2.5
+
+# Basic arithmetic
+result1 = num1 + num2
+print("Addition:", result1)
+
+result2 = num1 - num2
+print("Substraction:", result2)
+
+result4 = num1 / num2
+print("Division:", result4)
+
+#Rounding
+result5 = round(3.14159265359,3)#Rounds to 2 decimal place 
+print("Rounded", result5)
